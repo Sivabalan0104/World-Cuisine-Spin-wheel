@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Should I Eat?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>WHAT SHOULD I EAT?</h1>
+        
+        <div class="wheel-container">
+            <div class="pointer"></div>
+            <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        </div>
+        
+        <button id="spinBtn">SPIN</button>
+        
+        <div id="result"></div>
+
+        <div class="add-cuisine-container">
+            <h2>Add Your Own Cuisine</h2>
+            <input type="text" id="cuisineInput" placeholder="e.g., Scottish">
+            <button id="addBtn">Add</button>
+        </div>
+        
+        <div class="cuisine-list-container">
+            <h3>Current Options:</h3>
+            <ul id="cuisineList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
